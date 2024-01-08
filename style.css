@@ -1,0 +1,388 @@
+/* google font */
+* {
+    font-family: 'Merriweather', serif;
+}
+
+/* start header */
+
+.header-body{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/banner\ image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header-text {
+    color: aliceblue;
+    width: 1000px;
+    padding: 100px;
+    margin: 0 auto;
+
+}
+
+.header-text h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.header-text h3 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+/* Discount section */
+
+.discount-section {
+    width: 1320px;
+    margin: 0 auto;
+}
+.discount-text {
+    text-align: center;
+}
+
+.discount-section h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 88px;
+}
+
+.discount-text h5 {
+    color: red;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.discount-text h2 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+
+
+/* start  mid-night-section*/
+.mid-night-section {
+    background-image: url('./images/Vectorrr.png');
+    width: 1300px;
+    height: 600px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid-night-text {
+    color: aliceblue;
+    padding: 10px;
+    width: 680px;
+    height: auto;
+    padding-left: 100px;
+}
+
+.mid-night-text h1 {
+
+    color: #FFF;
+    font-size: 74px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.mid-night-text a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFF;
+    padding-left: 80px;
+}
+
+.mid-night-section img {
+    padding-right: 110px;
+}
+
+
+
+/* enroll-section */
+.enroll-section {
+    background: linear-gradient(rgb(250, 194, 194), rgb(241, 232, 232));
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+}
+
+.enroll-section .enroll-text {
+    text-align: center;
+    padding: 100px;
+}
+.span{
+    color: #f30a0a;
+}
+
+.enroll-section button {
+    color: #FFF;
+    margin: auto 45%;
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+/* start new offer */
+.new-offer-section {
+    width: 1320px;
+    background: #FFF;
+    margin: 0 auto;
+    
+}
+.new-offer-section > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 150px
+}
+.new-offer-item {
+    
+}
+
+.new-offer-item div {
+    width: 350px;
+    height: 300px;
+}
+
+.new-offer-text h3 {
+    color: red;
+}
+
+.new-offer-text h2 {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.new-offer-img img {
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 25px;
+    width: 300px;
+}
+
+.new-offer-text-2024 h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-size: 40px;
+
+}
+
+
+
+/* holiday-sale section start */
+.holiday-sale {
+    width: 1320px;
+    margin: 0 auto;
+
+}
+
+.holiday-sale-text {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+.holiday-sale-text h1{
+    font-size: 80px;
+    margin-top: 0;
+}
+.holiday-sale-text p{
+    margin-top: 0;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.img-item {
+    position: relative;
+}
+
+.Rectangle1 img {
+    position: relative;
+    left: 875px;
+    top: 6px;
+}
+
+.Rectangle2 img {
+    width: 1320px;
+    position: relative top;
+    margin-bottom: 100px;
+}
+
+.img-item .Rectangle3 img {
+    width: 600px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+
+/* product section */
+.product-section {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.product-text {
+    margin: 0 20px;
+    margin-bottom: 0%;
+}
+.product-text h5{
+    color: #f30a0a;
+    margin-bottom: 5px;
+}
+
+.product-text h3{
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.product-text p{
+    width: 800px;
+    margin-bottom:0%;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.product-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 90px auto;
+
+}
+
+.product-item img {
+    width: 400px;
+    margin: 5px;
+    margin-top: 0%;
+}
+
+.product-item img:hover{
+    border-radius: 10px;
+    background-color: rgb(251, 253, 255);
+    box-shadow: 3px 4px 5px 5px slategray;
+}
+
+
+/* Newsletter start */
+.newsletter {
+    background-color: #FF00000D;
+    margin: 0 auto;
+    width: 1320px;
+    padding-bottom: 100px;
+   
+}
+
+.newsletter-text {
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 0%;
+}
+
+.newsletter-text img {
+    width: 150px;
+}
+
+.newsletter-text h2 {
+    color: #070211;
+    font-size: 48px;
+}
+
+.newsletter-text p {
+    color: #070211;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+.btn {
+    background:  #c7bdbd;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.btn input {
+    font-size: 25px;
+    padding: 20px;
+    background: none;
+    border: 0;
+}
+
+.btn button {
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 25px;
+    background:none;
+    border: 0;
+    
+
+}
+
+
+/* footer */
+.foot {
+    background-color: #070211;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.foot-top{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.toot-top-text{
+    font-size: 20px;
+    color: #f8f8f8;
+    width: 300px;
+}
+.foot-top-img img{
+    margin-right: 20px;
+}
+.foot-top-img p{
+    font-size: 20px;
+    color: #f8f8f8;
+    width: 300px;
+}
+.foot-mid-img{
+   text-align: center;
+}
+.foot-mid-img img{
+    margin-right: 20px;
+}
+
+.foot-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.foot-bottom-text1{
+    font-size: 20px;
+    color: #f8f8f8;
+    width: 300px;
+}
+.foot-bottom-text2{
+    font-size: 20px;
+    color: #f8f8f8;
+    width: 300px;
+}
